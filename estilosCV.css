@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(146, 201, 245);
+    color: blue;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: #757575;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+    background-color: lightpink;
+}
+
+nav li a{
+    border: red;
+    border-width: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    color: magenta;
+}
+
+nav li:hover{
+    background-color: greenyellow;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.HojaDeVida{
+    background-color: aqua;
+}
+
+.Softwares{
+    width: 80%;
+    border-right: 3px solid black;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    color: blue;
+    margin-top: 40px;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+}
